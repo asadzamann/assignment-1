@@ -1,12 +1,84 @@
-.azeret-mono-normal{
+.azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
-  }
-  
+}
 
-.hero{
+
+.hero-section {
     background-image: url("B10A1-Challenge-Begins/assets/Hero-bg.png");
     height: 652px;
-    
+    align-items: center;
+    margin-bottom: 74px;
+}
+
+.hero-content {
+    width: 998px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+}
+
+.heading-des {
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn {
+    background: rgb(13, 19, 33);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    padding: 21px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+/* main */
+.why-main{
+    margin: 0 auto;
+    width: 50%;
+    height: 1395px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+    margin-bottom: 74px;
+    text-align: center;
+}
+.why-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.why-des {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+.learn-more{
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+}
+.why-content{
+    width: 946px;
+}
+.why{
+    margin: 10px; 
 }
