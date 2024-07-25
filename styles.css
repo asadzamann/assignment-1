@@ -152,8 +152,12 @@
 .inspiration{
     /* margin: 0 auto; */
     text-align: center;
+    margin-bottom: 149px;
 }
-
+.jhankar-video{
+    border: 30px solid rgba(0, 0, 0, 0.082);
+    border-radius: 20px;
+}
 /* Current Target section */
 .card-container {
     display: flex;
@@ -165,6 +169,7 @@
     margin: 0 auto;
     width: 1200px;
     text-align: center;
+    margin-bottom: 111px;
 }
 
 .card-container {
@@ -203,7 +208,7 @@
 /* next target section */
 .next-target {
     margin: 0 auto;
-    width: 50%;
+    width: 1140px;
     text-align: center;
 }
 
@@ -247,7 +252,7 @@
     background-image: url(B10A1-Challenge-Begins/assets/handshake.jpg);
     /* height: 400px; */
     align-items: center;
-    width: 1140px;
+    width: 1040px;
     height: 314px;
     background-size: cover;
     background-position: center;
