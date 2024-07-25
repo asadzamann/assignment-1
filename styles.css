@@ -58,6 +58,7 @@
     opacity: 0.7;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 60px;
 }
 
 .btn {
@@ -68,6 +69,8 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
+    text-decoration: none;
+    /* margin-top: 50px; */
 }
 
 /* main */
@@ -75,10 +78,10 @@
 .why-main {
     margin: 0 auto;
     width: 1000px;
-    height: 1100px;
+    height: 1260px;
     background: rgba(13, 19, 33, 0.02);
     padding: 80px 97px;
-    margin-bottom: 74px;
+    margin-bottom: 80px;
     text-align: center;
     border-radius: 20px;
 }
@@ -107,6 +110,7 @@
 .learn-more {
     padding: 12px;
     border: 1px solid rgba(0, 0, 0, 0.288);
+    /* margin: 0px; */
 }
 
 .why-content {
@@ -117,8 +121,13 @@
     background-color: white;
     border-radius: 10px;
     /* padding: 20px; */
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     padding: 20px;
+}
+
+.why .learn-more {
+    border: 1px solid rgb(13, 19, 33);
+    text-decoration: none;
 }
 
 /* .why{
@@ -148,16 +157,19 @@
     /* background-color: white; */
     margin: 0 auto;
 }
+
 /* Inspiration section */
-.inspiration{
+.inspiration {
     /* margin: 0 auto; */
     text-align: center;
     margin-bottom: 149px;
 }
-.jhankar-video{
+
+.jhankar-video {
     border: 30px solid rgba(0, 0, 0, 0.082);
     border-radius: 20px;
 }
+
 /* Current Target section */
 .card-container {
     display: flex;
@@ -174,7 +186,7 @@
 
 .card-container {
     /* justify-content: space-around; */
-    gap: 15px;
+    gap: 25px;
 }
 
 .card {
@@ -182,8 +194,19 @@
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
     border-radius: 10px;
-    background-color: rgba(235, 235, 221, 0.76);
     width: 50%;
+}
+
+.html {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.css {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.js {
+    background-color: rgba(255, 223, 0, 0.05);
 }
 
 .context {
@@ -228,8 +251,18 @@
     padding: 50px;
     box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.06);
     /* align-items: start; */
+}
 
-
+.learn-more {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    border: none;
 }
 
 .card-title {
@@ -250,6 +283,7 @@
 .support {
     margin: 0 auto;
     background-image: url(B10A1-Challenge-Begins/assets/handshake.jpg);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)); */
     /* height: 400px; */
     align-items: center;
     width: 1040px;
@@ -272,6 +306,7 @@
     line-height: 36px;
     letter-spacing: 0%;
     text-align: center;
+    text-shadow: 2px 2px #332f2fda;
 }
 
 .support-des {
@@ -282,7 +317,8 @@
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    /* rgb(255, 255, 255) */
+    text-shadow: 2px 2px #332f2fda
+        /* rgb(255, 255, 255) */
 }
 
 .support-box {
@@ -321,4 +357,22 @@
     letter-spacing: 0%;
     text-align: center;
     padding: 17px 20px 17px 20px;
+}
+
+.commitment {
+    /* width: 900px; */
+    /* justify-content: space-between; */
+    /* margin: 0 auto; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 300px;
+    margin: 70px 0px 70px 0px;
+    background-color: azure;
+    height: 100px;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0px auto;
+    width: 1200px;
+    /* border-radius: 20px; */
 }
